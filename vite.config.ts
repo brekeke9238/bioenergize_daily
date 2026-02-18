@@ -34,6 +34,7 @@ export default defineConfig(({ mode }) => {
         }
       })
     ],
+    base: '/bioenergize_daily/',
     define: {
       'process.env.API_KEY': JSON.stringify(env.API_KEY)
     }
